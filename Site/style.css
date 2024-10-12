@@ -1,3 +1,104 @@
-h1{
-    text-align: center;
+body{
+    margin: 0px;
+}
+nav{
+    background-color: aqua;
+    margin: 0px;
+    height:60px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    margin: 0px;
+}
+nav ul li{
+    list-style: none;
+}
+.actualPage{
+    background-color: teal;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: teal;
+}
+.homeSection{
+    margin-left: 60px;
+}
+.homeContent{
+    margin-left: 60px;
+}
+.redesSociais h1{
+    display: flex;
+    justify-content: center;
+}
+.qrCodes{
+    display: flex;
+    justify-content: space-around;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.whatsapp p{
+    display: flex;
+    justify-content: center;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.instagram p{
+    display: flex;
+    justify-content: center;
+}
+.qrCodeInstagram{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+}
+.qrCodeWhatsapp{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.emailENumero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.emailENumero h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+.formulario{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.formularioContent{
+    margin-left: 30px;
+}
+.formulario p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.enviar{
+    margin-top: 20px;
+    margin-left: 175px;
 }
